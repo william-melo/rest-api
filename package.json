@@ -4,7 +4,7 @@
   "description": "",
   "main": "api.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node rest-api/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon rest-api/app.js"
   },
