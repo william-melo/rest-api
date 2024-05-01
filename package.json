@@ -4,9 +4,9 @@
   "description": "",
   "main": "api.js",
   "scripts": {
-    "start": "node rest-api/app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon rest-api/app.js"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
