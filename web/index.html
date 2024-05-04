@@ -18,7 +18,7 @@
     }
   </style>
   <script type="module">
-    fetch('http://localhost:1234/movies')
+    fetch('https://rest-api-murex.vercel.app/movies')
       .then(response => response.json())
       .then(movies => {
         const html = movies.map(movie => {
@@ -41,7 +41,7 @@
             const article = event.target.closest('article')
             const id = article.dataset.id
 
-            fetch(`http://localhost:1234/movies/${id}`, {
+            fetch(`https://rest-api-murex.vercel.app/movies/${id}`, {
               method: 'DELETE'
             })
               .then(res => {
